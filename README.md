@@ -7,6 +7,12 @@ Also, requests in .http format have been added in http-requests folder.
   
 Documentation Reference: 
 https://fastapi.tiangolo.com/tutorial/sql-databases/#orms
+  
+  
+### Install Packages
+```
+pipenv install
+```
 
 ### Running Migrations
 ```
