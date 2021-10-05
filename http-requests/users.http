@@ -8,8 +8,8 @@ accept: application/json
 content-type: application/json
 
 {
-    "email": "person1@email.comx",
-    "password": "pwd4_person1"
+    "email": "person2@email.comx",
+    "password": "pwd4_person2"
 }
 
 ###
@@ -24,11 +24,11 @@ accept: application/json
 
 ###
 
-POST http://localhost:8000/users/1/items
+POST http://localhost:8000/users/2/items
 accept: application/json
 content-type: application/json
 
 {
-    "title": "Plumbus",
-    "description": "Everyone knows what a plumbus is"
+    "title": "Person 2 Item",
+    "description": "Item 2 Description"
 }
